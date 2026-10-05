@@ -5,6 +5,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Lamazon.DataAccess.Extensions;
 
+/// <summary>
+/// Seed data: rows that EF Core inserts with the migrations (HasData).
+/// Each method returns the ModelBuilder, so the calls can be chained in LamazonDbContext.OnModelCreating.
+/// Values must be fixed (no DateTime.Now, no Guid.NewGuid()), or every new migration would update them again.
+/// </summary>
 internal static class DataSeedExtensions
 {
     public static ModelBuilder SeedProductCategoryStatuses(this ModelBuilder modelBuilder)

@@ -4,6 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Lamazon.DataAccess.Context;
 
+/// <summary>
+/// The database session: one Table per table, and the model configuration.
+/// </summary>
 public class LamazonDbContext : DbContext
 {
     public LamazonDbContext(DbContextOptions<LamazonDbContext> options) : base(options)
@@ -25,8 +28,10 @@ public class LamazonDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // Every IEntityTypeConfiguration<T> class in this project (see the Configurations folder)
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(LamazonDbContext).Assembly);
 
+        // Rows that must exist from the start: lookup tables, roles, the first users and some products
         modelBuilder
             .SeedProductCategoryStatuses()
             .SeedRoles()

@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "OAnZzcaY/Zg=",
+  "dgSpecHash": "/L8WqKO3Vhk=",
   "success": true,
   "projectFilePath": "C:\\Users\\Natasa\\Desktop\\Avenga Academy\\Homeworks\\Homework-Practical ASP .NET developed app\\homework_01\\Lamazon\\Lamazon.Web\\Lamazon.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Natasa\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\Natasa\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
     "C:\\Users\\Natasa\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Natasa\\.nuget\\packages\\mapster\\10.0.13\\mapster.10.0.13.nupkg.sha512",
+    "C:\\Users\\Natasa\\.nuget\\packages\\mapster.core\\10.0.13\\mapster.core.10.0.13.nupkg.sha512",
+    "C:\\Users\\Natasa\\.nuget\\packages\\mapster.dependencyinjection\\10.0.13\\mapster.dependencyinjection.10.0.13.nupkg.sha512",
     "C:\\Users\\Natasa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\Natasa\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
     "C:\\Users\\Natasa\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",

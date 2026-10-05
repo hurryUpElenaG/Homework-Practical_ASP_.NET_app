@@ -10,7 +10,7 @@ public class Product : BaseEntity
     public decimal Price { get; set; }
     public bool IsFeatured { get; set; }
     public int DiscountPercentage { get; set; }
-    public decimal DiscountedPrice => Math.Round((1 - DiscountPercentage / 100) * Price, 2);
+    public decimal DiscountedPrice => Math.Round((1 - DiscountPercentage / 100m) * Price, 2);
 
     public int ProductCategoryId { get; set; }
     public ProductCategory ProductCategory { get; set; }

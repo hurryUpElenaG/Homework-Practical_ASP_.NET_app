@@ -16,6 +16,7 @@ internal class UserConfiguration : IEntityTypeConfiguration<User>
         builder.Property(user => user.FullName).IsRequired().HasMaxLength(500);
         builder.Property(user => user.RoleKey).IsRequired().HasMaxLength(50);
 
+        // One account per email address. The database checks it too, not only our code.
         builder.HasIndex(user => user.Email).IsUnique();
 
         builder.HasOne(user => user.Role)

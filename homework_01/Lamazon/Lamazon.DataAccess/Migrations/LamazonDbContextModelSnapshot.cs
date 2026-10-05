@@ -161,9 +161,6 @@ namespace Lamazon.DataAccess.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<int>("InvoiceId")
-                        .HasColumnType("int");
-
                     b.Property<string>("IpAddress")
                         .HasMaxLength(45)
                         .HasColumnType("nvarchar(45)");
@@ -750,8 +747,7 @@ namespace Lamazon.DataAccess.Migrations
 
             modelBuilder.Entity("Lamazon.Domain.Entities.Order", b =>
                 {
-                    b.Navigation("Invoice")
-                        .IsRequired();
+                    b.Navigation("Invoice");
 
                     b.Navigation("OrderLineItems");
                 });

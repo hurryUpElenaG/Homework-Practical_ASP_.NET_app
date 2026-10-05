@@ -16,8 +16,7 @@ public class Order : BaseEntity
     public int OrderStatusId { get; set; }
     public OrderStatus OrderStatus { get; set; }
 
-    public int InvoiceId { get; set; }
-    public Invoice Invoice { get; set; }
+    public Invoice? Invoice { get; set; }
 
     public ICollection<OrderLineItem> OrderLineItems { get; set; } = [];
 }

@@ -20,6 +20,7 @@ internal class InvoiceConfiguration : IEntityTypeConfiguration<Invoice>
             .IsRequired()
             .HasPrecision(10, 2);
 
+        // Two invoices can never get the same number
         builder.HasIndex(invoice => invoice.InvoiceNumber).IsUnique();
 
         builder.HasOne(invoice => invoice.User)
@@ -27,6 +28,8 @@ internal class InvoiceConfiguration : IEntityTypeConfiguration<Invoice>
             .HasForeignKey(invoice => invoice.UserId)
             .OnDelete(DeleteBehavior.NoAction);
 
+        // One-to-one: every invoice belongs to exactly one order, and an order has at most one invoice.
+        // The foreign key lives in Invoices (the invoice can't exist without its order), and EF Core gives OrderId a UNIQUE index: the database itself refuses a second invoice for the same order.
         builder.HasOne(invoice => invoice.Order)
             .WithOne(order => order.Invoice)
             .HasForeignKey<Invoice>(invoice => invoice.OrderId)

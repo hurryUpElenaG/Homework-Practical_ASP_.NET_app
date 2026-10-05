@@ -29,6 +29,7 @@ internal class ProductConfiguration : IEntityTypeConfiguration<Product>
             .HasPrecision(10, 2)
             .IsRequired();
 
+        // Default values for rows inserted without them (for example straight from SQL)
         builder.Property(product => product.ProductStatusId)
             .HasDefaultValue((int)ProductStatusEnum.Active);
         builder.Property(product => product.IsFeatured)

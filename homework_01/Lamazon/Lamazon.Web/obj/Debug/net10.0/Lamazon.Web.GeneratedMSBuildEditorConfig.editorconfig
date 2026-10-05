@@ -43,8 +43,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/Shared/_CartButtons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJ0QnV0dG9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/Shared/_ProductItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/Shared/_ProductPrice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0UHJpY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/_ViewImports.cshtml]
@@ -54,7 +74,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Natasa/Desktop/Avenga Academy/Homeworks/Homework-Practical ASP .NET developed app/homework_01/Lamazon/Lamazon.Web/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-vgl6rlc8w9

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lamazon.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82200ac7b69bea5a1be202140dbafc7db8f53ca8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lamazon.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lamazon.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

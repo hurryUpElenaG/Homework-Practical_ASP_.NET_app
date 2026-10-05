@@ -22,6 +22,7 @@ internal class OrderConfiguration : IEntityTypeConfiguration<Order>
         builder.Property(order => order.CountryCode).HasMaxLength(5);
         builder.Property(order => order.CountryFlagUrl).HasMaxLength(255);
 
+        // Two orders can never get the same number
         builder.HasIndex(order => order.OrderNumber).IsUnique();
 
         builder.HasOne(order => order.User)
