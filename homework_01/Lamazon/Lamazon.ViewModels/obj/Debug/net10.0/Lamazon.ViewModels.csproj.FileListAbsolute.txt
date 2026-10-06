@@ -1,0 +1,13 @@
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\bin\Debug\net10.0\Lamazon.ViewModels.deps.json
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\bin\Debug\net10.0\Lamazon.ViewModels.dll
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\bin\Debug\net10.0\Lamazon.ViewModels.pdb
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\Lamazon.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\Lamazon.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\Lamazon.ViewModels.AssemblyInfo.cs
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\Lamazon.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\Lamazon.ViewModels.sourcelink.json
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\Lamazon.ViewModels.dll
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\refint\Lamazon.ViewModels.dll
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\Lamazon.ViewModels.pdb
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\ref\Lamazon.ViewModels.dll
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.ViewModels\obj\Debug\net10.0\Lamazon..B0E88F3C.Up2Date

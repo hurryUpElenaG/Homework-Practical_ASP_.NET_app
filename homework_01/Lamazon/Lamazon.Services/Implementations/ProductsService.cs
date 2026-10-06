@@ -45,4 +45,11 @@ public class ProductsService : IProductsService
         List<ProductViewModel> mappedProducts = _mapper.Map<List<ProductViewModel>>(products);
         return mappedProducts;
     }
+
+    public async Task<List<ProductViewModel>> GetByCategoryAsync(int categoryId, CancellationToken cancellationToken = default)
+    {
+        List<Product> products = await _productsRepository.GetByCategoryAsync(categoryId, cancellationToken);
+        List<ProductViewModel> mappedProducts = _mapper.Map<List<ProductViewModel>>(products);
+        return mappedProducts;
+    }
 }

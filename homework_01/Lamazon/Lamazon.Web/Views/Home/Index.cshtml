@@ -1,12 +1,35 @@
-@model List<ProductViewModel>
+@model Lamazon.Web.Models.HomeIndexViewModel
 @{
     ViewData["Title"] = "Featured products";
 }
 
-<h2>Featured products</h2>
+<h2>Product categories</h2>
+<div class="row mb-4">
+    @foreach (var category in Model.ProductCategories)
+    {
+        <div class="col-sm-3">
+            <a class="text-decoration-none" href="@Url.Action("Index", "Home", new { categoryId = category.Id })">
+                <div class="card p-2 mb-2 @(Model.SelectedCategoryId == category.Id ? "border-primary" : "")">
+                    <div class="card-body">
+                        <h5 class="card-title">@category.Name</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    }
+</div>
+
+@if (Model.SelectedCategoryId.HasValue)
+{
+    <h2>Products in "@Model.SelectedCategoryName"</h2>
+}
+else
+{
+    <h2>Featured products</h2>
+}
 
 <div class="row">
-    @foreach (var product in Model)
+    @foreach (var product in Model.Products)
     {
         <partial name="_ProductItem" model="product" />
     }

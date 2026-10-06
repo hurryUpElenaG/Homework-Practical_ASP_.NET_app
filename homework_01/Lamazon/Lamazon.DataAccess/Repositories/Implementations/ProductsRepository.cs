@@ -39,4 +39,13 @@ public class ProductsRepository : BaseRepository<Product>, IProductsRepository
             .OrderBy(product => product.Id)
             .ToListAsync(cancellationToken);
     }
+
+    public async Task<List<Product>> GetByCategoryAsync(int categoryId, CancellationToken cancellationToken = default)
+    {
+        return await ActiveProducts
+            .AsNoTracking()
+            .Where(product => product.ProductCategoryId == categoryId)
+            .OrderBy(product => product.Id)
+            .ToListAsync(cancellationToken);
+    }
 }

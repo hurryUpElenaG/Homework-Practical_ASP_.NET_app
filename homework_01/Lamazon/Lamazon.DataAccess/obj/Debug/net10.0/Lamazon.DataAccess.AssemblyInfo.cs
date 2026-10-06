@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lamazon.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82200ac7b69bea5a1be202140dbafc7db8f53ca8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52081e02f49bb2f6b3bf255f09266f09231638de")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lamazon.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lamazon.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

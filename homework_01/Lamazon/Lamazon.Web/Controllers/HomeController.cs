@@ -9,16 +9,41 @@ namespace Lamazon.Web.Controllers;
 public class HomeController : Controller
 {
     private readonly IProductsService _productsService;
+    private readonly IProductCategoriesService _productCategoriesService;
 
-    public HomeController(IProductsService productsService)
+    public HomeController(IProductsService productsService, IProductCategoriesService productCategoriesService)
     {
         _productsService = productsService;
+        _productCategoriesService = productCategoriesService;
     }
 
-    public async Task<IActionResult> Index(CancellationToken cancellationToken)
+    public async Task<IActionResult> Index(int? categoryId, CancellationToken cancellationToken)
     {
-        List<ProductViewModel> featuredProducts = await _productsService.GetFeaturedAsync(cancellationToken);
-        return View(featuredProducts);
+        List<ProductViewModel> products;
+        string? selectedCategoryName = null;
+
+        if (categoryId.HasValue)
+        {
+            products = await _productsService.GetByCategoryAsync(categoryId.Value, cancellationToken);
+            var cat = (await _productCategoriesService.GetAllAsync(cancellationToken)).FirstOrDefault(c => c.Id == categoryId.Value);
+            selectedCategoryName = cat?.Name;
+        }
+        else
+        {
+            products = await _productsService.GetFeaturedAsync(cancellationToken);
+        }
+
+        List<ProductCategoryViewModel> categories = await _productCategoriesService.GetAllAsync(cancellationToken);
+
+        var model = new HomeIndexViewModel
+        {
+            Products = products,
+            ProductCategories = categories,
+            SelectedCategoryId = categoryId,
+            SelectedCategoryName = selectedCategoryName
+        };
+
+        return View(model);
     }
 
     public IActionResult Privacy()

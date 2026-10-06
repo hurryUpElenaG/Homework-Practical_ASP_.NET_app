@@ -1,0 +1,13 @@
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\bin\Debug\net10.0\Lamazon.Domain.deps.json
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\bin\Debug\net10.0\Lamazon.Domain.dll
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\bin\Debug\net10.0\Lamazon.Domain.pdb
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\Lamazon.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\Lamazon.Domain.AssemblyInfoInputs.cache
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\Lamazon.Domain.AssemblyInfo.cs
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\Lamazon.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\Lamazon.Domain.sourcelink.json
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\Lamazon.Domain.dll
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\refint\Lamazon.Domain.dll
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\Lamazon.Domain.pdb
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\ref\Lamazon.Domain.dll
+C:\Users\Natasa\Desktop\Avenga Academy\Homeworks\Homework-Practical ASP .NET developed app\homework_01\Lamazon\Lamazon.Domain\obj\Debug\net10.0\Lamazon..70B9F9F9.Up2Date
